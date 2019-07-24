@@ -1,0 +1,15 @@
+name: ENCODE ATAC-seq pipeline
+identifier: WF_e85df4.f7
+description: |
+  The prototype ATAC-seq pipeline was developed by Anshul Kundaje's lab at Stanford University. Upon revision and
+  full implementation, it will be a part of the ENCODE Uniform Processing Pipelines series. The full ATAC-seq
+  pipeline code is available on Github.
+
+  The ENCODE ATAC-seq pipeline is used for quality control and statistical signal processing of short-read sequencing
+   data, producing alignments and measures of enrichment.
+
+  The pipeline shown here assumes the following defaults: align_only is false, pipeline_type is 'atac', all fastq and adapter
+  files are defined in a single files, true_rep_only is false, disable_xcor is false, disable_ataqc is false,
+  enable_idr is true (false is the default value, but set to true so all the possible steps are shown).
+softwareVersion: 'v1.1.5'
+version: 1.0
